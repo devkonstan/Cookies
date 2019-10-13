@@ -1,0 +1,23 @@
+Zadanie 1.
+Napisz aplikację która będzie przechowywać aktualny zawód pracownika firmy. W tym celu:
+- napisz formularz który będzie dawał możliwość wyboru zawodu, np. Programista, Księgowy, Prawnik
+- napisz serwlet który będzie wyświetlał zawód wskazany w ciasteczku
+*SetJobServlet - doPost
+*WelcomeEmployeeServlet - doGet
+​
+Zadanie 2.
+Napisz aplikację opartą o serwlety gdzie na ekranie startowym będzie mógł wybrać jedną z następujących marek samochodu:
+- VW
+- Skoda
+- Seat
+Strona domowa każdego z brandów nie różni się niczym od siebie poza kolorem:
+- VW - niebieski
+- Skoda - zielony
+- Seat - czerwony
+Zaproponuj rozwiązanie dla takiego problemu. Aplikacja powinna zawierać dwa serwlety:
+- /home - wyświetlanie koloru
+- /welcome - wybór brandu
+​
+Zadanie 3.
+Napisz aplikację opartą o serwlety gdzie na ekranie startowym będzie można wybrać aktualną lokalizację użytkownika. Na podstawie wskazanej lokalizacji na ekranie powitalnym powinna wyświetlać się aktualna temperatura dla wskazanej lokalizacji. Tempererature możemy pobrać za pomocą np.
+https://openweathermap.org/current
